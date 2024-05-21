@@ -9,7 +9,7 @@ Este proyecto es una aplicación Java que permite convertir cantidades de dinero
 - Dólares estadounidenses (USD) a Pesos colombianos (COP)
 - Pesos colombianos (COP) a Dólares estadounidenses (USD)
 
-## Características
+## 🚀 Características
 
 - Menú interactivo para seleccionar el tipo de conversión.
 - Entrada del usuario para la cantidad de dinero a convertir.
@@ -18,50 +18,63 @@ Este proyecto es una aplicación Java que permite convertir cantidades de dinero
 - Manejo de entradas no válidas del usuario.
 - Loop de menú hasta que el usuario decida salir.
 
-## Requisitos
+## ✅ Requisitos
 
 - Java 17 o superior
 - Biblioteca GSON para el manejo de JSON
 
-## Instalación
+## 💻 Instalación
 
-1. Clona el repositorio:
-    ```bash
-    git clone https://github.com/tu-usuario/nombre-del-repositorio.git
-    ```
-2. Navega al directorio del proyecto:
-    ```bash
-    cd nombre-del-repositorio
-    ```
-3. Asegúrate de tener la biblioteca GSON. Si usas Maven, puedes agregar la siguiente dependencia en tu archivo `pom.xml`:
-    ```xml
-    <dependency>
-        <groupId>com.google.code.gson</groupId>
-        <artifactId>gson</artifactId>
-        <version>2.8.8</version>
-    </dependency>
-    ```
+1. **Clona el repositorio:**
+    
+    git clone https://github.com/Aldo21496/conversormoneda.git
 
-## Uso
+    
 
-1. Compila el proyecto:
-    ```bash
+2. **Navega al directorio del proyecto:**
+    
+    cd conversormoneda
+    
+3. **Asegúrate de tener la biblioteca GSON con sus dependencia:**
+    
+
+## 📋 Uso
+
+1. **Compila el proyecto:**
+    
     javac Convertir.java
-    ```
-2. Ejecuta el proyecto:
-    ```bash
+    
+
+2. **Ejecuta el proyecto:**
+    
     java Convertir
-    ```
-3. Sigue las instrucciones en pantalla para seleccionar el tipo de conversión y la cantidad a convertir.
+    
 
-## Ejemplo de Uso
+3. **Sigue las instrucciones en pantalla para seleccionar el tipo de conversión y la cantidad a convertir.**
 
-```plaintext
+## 📝 Ejemplo de Uso
+
 Seleccione una opción:
-1. Convertir de USD a ARS
-2. Convertir de ARS a USD
-3. Convertir de USD a BRL
-4. Convertir de BRL a USD
-5. Convertir de USD a COP
-6. Convertir de COP a USD
-0. Salir
+
+Sea Bienvenido/a al Conversor de Moneda
+
+1) Dólar (USD) =>> Peso argentino (ARS)
+2) Peso argentino (ARS) =>> Dólar (USD)
+3) Dólar (USD) =>> Real brasilero (BRL)
+4) Real brasilero (BRL) =>> Dólar (USD)
+5) Dólar (USD) =>> Peso colombiano (COP)
+6) Peso colombiano (COP) =>> Dólar (USD)
+0) Salir");
+
+Elija una opción valida: 
+
+Después de seleccionar una opción, ingrese la cantidad que desea convertir.
+
+
+
+🤝 Contribuciones
+Las contribuciones son bienvenidas.
+
+
+
+
